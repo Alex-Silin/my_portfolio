@@ -1,0 +1,83 @@
+body{
+background-image:url("img/fon.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+a {
+ color: white;
+}
+a:hover{
+    color: blue;
+}
+
+.nav {
+   
+}
+p, h1, h2, h3 {
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+nav {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 4rem; 
+    margin: -1rem -0.531rem  -1rem -1rem ;
+}
+.item {
+    display: flex;
+    justify-content: space-around;
+    width:19rem;
+}
+.name { 
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Shantell Sans', cursive;
+}
+.my_photo {
+    display: flex;
+    justify-content: center;
+}
+.pht {
+    width: 27rem;
+    height: 27rem;
+    border-radius: 50% 50% 50% 50%;
+    border: 5px solid rgb(255, 255, 255);
+}
+header, .text_form, .fieldd {
+    text-align: center;
+}
+.about {
+border: 1px solid rgb(255, 255, 255);
+   letter-spacing: 0.1rem;
+   word-spacing: 0.5rem;
+   line-height:  1.5rem;
+   font-family: 'Shantell Sans', cursive;
+}
+
+.project {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.imgg {
+    max-width:100%;
+    height: 500px;
+}
+label, .text_form {
+    color: white;
+    font-size: 1.5rem;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.field {
+    clear:both; 
+    text-align:right;
+}
+
+
+

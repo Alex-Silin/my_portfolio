@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@1,800&display=swap" rel="stylesheet">
+    <title>My portfolio</title>
+</head>
+<body>
+    <nav>
+        <div class="item">
+            <p><a href="#1">About me</a> </p>
+            <p><a href="#2">Projects</a></p>
+            <p><a href="#3">Contacts</a></p>
+        </div>
+    </nav>
+    <header>
+        <h1 class="name">SILIN ALEXEY</h1>
+        <div class="my_photo"><img class="pht" src="img/imi.jpg" alt="my photo"></div>
+        <h2>I am 31 years old</h2>
+        <h2>Full-stack student</h2>
+    </header>
+    <div class="about_me" id="1">
+        <h2>About me</h2>
+        <h3 class="about">I am Alexey Sergeevich Silin, born on 11/15/1991. 
+            From 2008 to 2010 he studied as a gas-electric welder. 
+            In 2011 he entered the Soligorsk Economic College with a degree 
+            in Information Technology Software, in 2014 he successfully 
+            graduated from the educational institution. From 2009, he worked 
+            as an architect in wooden housing construction until 2016. 
+            From 2016 to the present day, I have been working in Belaruskali 
+            as an inspector-repairer of wagons. Since September 2022, he 
+            began to study for a full stack.
+        </h3>
+    </div>
+    <div id="2">
+        <h2>Projects</h2>
+        <div class="project">
+            <a class="con" href="https://alex-silin.github.io/My-portfolio/"> <img class="imgg" src="img/project1.jpg" alt="first project"></a>
+            <a class="con"  href="http://kdrev.com/"> <img class="imgg" src="img/project2.jpg" alt="second project"></a>
+        </div>
+    </div>
+    <br>
+     <div class="text_form"> 
+            <h2>Fill out the form if you need a website</h2>
+     </div>
+    <div class="form">
+        <form action="#" method="POST">
+            <div class="field">
+                <label for="Firstname">First Name:</label>
+                <input type="text" id="Firstname" required>
+            </div>
+            
+            <div class="field">
+                <label for="Lastname">Last Name:</label>
+                <input type="text" id="Lastname" required>
+            </div>
+            
+            <div class="field">
+                 <label for="e-Mail">e-Mail:</label>
+                 <input type="text" id="e-Mail" required>
+            </div>
+            <div class="fieldd">
+                <h2>What languages ​​should be on the site?</h2>
+                <label for="one">HTML:</label>
+                <input type="checkbox" id="one" value="HTML">
+                <label for="two">CSS:</label>
+                <input type="checkbox" id="two" value="CSS">
+                <label for="three">JS:</label>
+                <input type="checkbox" id="three" value="JS">
+           </div>
+           <div class="fieldd">
+                <h2>Need a website urgently?</h2>
+                <label for="Yes">Yes:</label>
+                <input type="radio" id="Yes" value="Yes" name="an">
+                <label for="No">No:</label>
+                <input type="radio" id="No" value="No" name="an">                
+           </div>
+           <div class="fieldd">
+            <label for="li">How many pages will the site have?</label>
+            <input type="text" id="li" list="lis" name="li">
+                <datalist id="lis">
+                    <option value="One page"></option>
+                    <option value="Two page"></option>
+                    <option value="Three page"></option>
+                    <option value="Four page"></option>
+                    <option value="Multi-page"></option>
+                </datalist>
+           </div>
+      <div class="fieldd">
+            <h2>Additional information</h2>
+            <label for="com"></label>
+            <textarea name="com" id="com" cols="50" rows="10"></textarea>
+      </div>
+      <div class="fieldd">
+            <input type="submit" name="submit" value="Send" maxlength="500">
+      </div>
+        </form>
+    </div>
+</body>
+</html>
