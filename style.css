@@ -46,6 +46,14 @@ nav {
     border-radius: 50% 50% 50% 50%;
     border: 5px solid rgb(255, 255, 255);
 }
+@media (min-width: 300px) and (max-width: 600px) {
+.pht{
+    width: 15rem;
+    height: 15rem; 
+}
+}
+    
+
 header, .text_form, .fieldd {
     text-align: center;
 }
@@ -66,6 +74,13 @@ border: 1px solid rgb(255, 255, 255);
     max-width:100%;
     height: 500px;
 }
+@media (min-width: 300px) and (max-width: 600px) {
+    .imgg{
+        max-width:100%;
+        height: 300px;
+    }
+    }
+
 label, .text_form {
     color: white;
     font-size: 1.5rem;
@@ -77,6 +92,12 @@ label, .text_form {
 .field {
     clear:both; 
     text-align:right;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    height: 4rem; 
+    margin: 4rem -0.531rem  -1rem -1rem ;
 }
 
 
